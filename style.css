@@ -5,18 +5,70 @@ body {
     font-family: 'IM Fell French Canon', serif;
 }
 
+.navbar {
+    position: fixed;
+    width: 100%;
+}
+
 #showcase {
-    background-image: url(Images/header.jpg);
-    height: 95vh;
+    background-image: url(Images/foodbackground1.jpg);
+    height: 100vh;
     background-size: cover;
     background-position: center;
-    color: #fff
+    color: #fff;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
     #showcase {
         padding: 0 100px;
     }
+}
+
+.Index-gallery-item-content {
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.895);
+    border-radius: 10px;
+    padding: 25px;
+    width: 900px;
+    text-align: center;
+}
+
+h2.Index-gallery-item-content-heading {
+    font-size: 40px;
+    font-weight: bold;
+    color: #045a32;
+    margin-bottom: 25px;
+}
+
+.Index-gallery-item-content-body { 
+    padding-bottom: 15px;
+}
+
+.paragraph {
+    color: rgb(0, 0, 0);
+    margin-bottom: 50px;
+}
+
+a.button {
+    font-size: small;
+    color: rgba(236, 236, 236, 0.883);
+    background-color: #198754;
+    border-color: #198754;
+    border-radius: 7px;
+    padding: 15px 15px 15px 15px;
+    text-decoration: none;
+}
+
+a.button:hover {
+    background-color: #1baf6a;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+  
+.card {
+    border-color: rgb(29, 28, 28);
+    border-radius: 5px;
 }
 
 @media (min-width: 992px) {
