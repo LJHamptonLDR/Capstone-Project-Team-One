@@ -41,6 +41,14 @@ h2.Index-gallery-item-content-heading {
     margin-bottom: 25px;
 }
 
+h3.Index-gallery-item-content-heading {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: #045a32;
+    margin-bottom: 25px;
+}
+
 .Index-gallery-item-content-body { 
     padding-bottom: 15px;
 }
